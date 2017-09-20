@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "184517575446",
+    "firebase_url": "https://voyage-f0214.firebaseio.com",
+    "project_id": "voyage-f0214",
+    "storage_bucket": "voyage-f0214.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:184517575446:android:99717aa38c929477",
+        "android_client_info": {
+          "package_name": "com.voyage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "184517575446-699oog6rehvbv5u2832dng6h42k9jr6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.voyage",
+            "certificate_hash": "383975C9DA2D46CFAF645490EBA4D9093444B2A5"
+          }
+        },
+        {
+          "client_id": "184517575446-lo1cu5k7iv818gfeudro3qjgd0hgn9uu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvXrKHp9EWMm8r14lsYXNo4YMZq6L6Bwg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "184517575446-lo1cu5k7iv818gfeudro3qjgd0hgn9uu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

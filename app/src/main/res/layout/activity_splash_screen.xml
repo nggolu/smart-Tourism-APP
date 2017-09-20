@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash"
+    android:id="@+id/splash_screen"
+    tools:context=".SplashScreen"
+    >
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="171dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+       <TextView
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Voyage"
+           android:gravity="center"
+           android:textSize="60dp"
+           android:textStyle="italic|bold"
+           android:textColor="#94070D"
+           />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="WELCOME TO INDAIN TOURISM "
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="italic|bold"
+            android:textColor="#94070D"
+            android:id="@+id/textView2" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

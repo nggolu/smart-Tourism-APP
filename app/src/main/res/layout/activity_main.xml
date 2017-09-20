@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indvector"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.voyage.UserInterest">
+    religious  , monuments , shopping, Wildlife, Museum,others
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:alpha="2.2"
+        android:padding="10dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold|italic"
+        android:text=" check places you want to visit "/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangular_shape"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:hint=" RELEGIOUS "
+            android:textStyle="italic"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/checkbox1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/check1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangular_shape"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:hint=" MONUMENTS "
+            android:textStyle="italic"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/checkbox2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/check1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangular_shape"
+        android:orientation="horizontal"
+        android:paddingRight="5dp"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:hint=" SHOPPING "
+            android:textStyle="italic"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/checkbox3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/check1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangular_shape"
+        android:orientation="horizontal"
+        android:paddingRight="5dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:hint=" WILDLIFE "
+            android:textStyle="italic"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/checkbox4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/check1" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangular_shape"
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:hint=" MUSEUM "
+            android:textStyle="italic"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/checkbox5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/check1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rectangular_shape"
+        android:orientation="horizontal"
+        android:paddingRight="5dp"
+        android:weightSum="3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center_vertical"
+            android:hint=" OTHERS "
+            android:textStyle="italic"
+            android:textColorHint="@color/colorBlack"
+            android:textSize="17dp" />
+
+        <ImageView
+            android:id="@+id/checkbox6"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:src="@drawable/check1" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btsub"
+        android:text=" Submit "
+        android:textSize="18dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="55dp"
+        android:textColor="@color/colorBlack"
+        android:textStyle="italic"
+        android:background="@drawable/theme"/>
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:text=""
+        android:textColor="@color/colorBlack" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="20dp"
+        android:text=""
+        android:textColor="@color/colorBlack" />
+</LinearLayout>
